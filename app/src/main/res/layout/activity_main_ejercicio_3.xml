@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:hint="@string/nombre"
+        tools:ignore="RtlHardcoded" />
+    <EditText
+        android:id="@+id/txtApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellidos"
+        android:layout_below="@+id/txtNombre"/>
+    <TextView
+        android:id="@+id/txvEstadoCivil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtApellidos"
+        android:text="@string/estado_civil"
+        android:textSize="20sp"/>
+    <Spinner
+        android:id="@+id/spnEstadoCivil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txvEstadoCivil"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:entries="@array/list_civil_state"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/txvProfresion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtApellidos"
+        android:layout_toRightOf="@+id/spnEstadoCivil"
+        android:text="@string/profesion"
+        android:textSize="20sp"
+        tools:ignore="RtlHardcoded" />
+    <Spinner
+        android:id="@+id/spnProfesion"
+        android:entries="@array/list_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txvEstadoCivil"
+        android:layout_toRightOf="@+id/spnEstadoCivil"
+        android:textAlignment="center"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>

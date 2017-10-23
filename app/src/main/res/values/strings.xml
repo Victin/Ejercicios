@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ejercicios</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="estado_civil">Estado Civil</string>
+    <string name="profesion">Profesion</string>
+    <string name="dolares"><b>Dolares</b></string>
+    <string name="euros"><b>Euros</b></string>
+    <string name="conversion"><b>Valor de Conversion</b></string>
+    <string name="valor"><b>1$ = 0,846€</b></string>
+    <string name="contigurar">Configurar</string>
+    <string name="convertir">Convertir</string>
+</resources>

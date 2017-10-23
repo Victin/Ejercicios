@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_civil_state">
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Divorciado</item>
+        <item>Separado</item>
+        <item>Viduo</item>
+    </string-array>
+
+    <string-array name="list_job">
+        <item>Estudiante</item>
+        <item>Autonomo</item>
+        <item>Profesor</item>
+        <item>Ingeniero</item>
+        <item>Contable</item>
+    </string-array>
+</resources>
